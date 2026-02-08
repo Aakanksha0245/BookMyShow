@@ -1,0 +1,38 @@
+.container{
+    background-color: blue;
+    /* height: 200px;
+    width: 200px; */
+    display: flex;
+}
+
+.box{
+    height: 300px;
+    width: 300px;
+    color: red;
+    background-color: aqua;
+    margin: 30px;
+}
+/* mobile phone */
+@media (max-width:600px)
+{
+    .container{
+        flex-direction: column;
+    }
+}
+/* tablet width 900px 600px min */
+/* width height small protrat width height bigg lanscape */
+
+@media (min-width:601px) and (max-width:900px)
+{
+
+}
+
+
+/* @media (max-width:500px)
+{
+    .container{
+        background-color: aqua;
+        width: 200px;
+
+    }
+} */
